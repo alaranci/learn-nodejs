@@ -1,7 +1,3 @@
-const fs = require("fs");
+const getNotes = require("./notes");
 
-try {
-  fs.appendFileSync("note.txt", "Irlan Navila");
-} catch (err) {
-  console.log(err);
-}
+console.log(getNotes());
