@@ -1,3 +1,3 @@
 const chalk = require("chalk");
 
-console.log(chalk.bgBlack.yellow.inverse.bold("Success"));
+console.log(chalk.bgBlack.yellow.inverse.bold("Yahaha"));
