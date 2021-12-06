@@ -1,3 +1,9 @@
-const chalk = require("chalk");
+const command = process.argv[2];
 
-console.log(chalk.bgBlack.yellow.inverse.bold("Yahaha"));
+if (command === "add") {
+  console.log("Menambahkan file...");
+} else if (command === "remove") {
+  console.log("Menghapus file...");
+} else {
+  console.log("Perintah tidak dikenali, silahkan mencoba kembali!");
+}
